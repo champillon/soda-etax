@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>etda.or.th</groupId>
 	<artifactId>soda-etax</artifactId>
-	<version>0.01</version>
+	<version>0.0.1</version>
 	<dependencies>
 		<dependency>
 			<groupId>org.apache.pdfbox</groupId>
@@ -51,4 +51,12 @@
 	    <maven.compiler.source>1.8</maven.compiler.source>
 	    <maven.compiler.target>1.8</maven.compiler.target>
   	</properties>
+
+	<distributionManagement>
+		<repository>
+			<id>central</id>
+			<name>artifact.billme.in.th-releases</name>
+			<url>https://artifact.billme.in.th/artifactory/billme-public</url>
+		</repository>
+	</distributionManagement>
 </project>
